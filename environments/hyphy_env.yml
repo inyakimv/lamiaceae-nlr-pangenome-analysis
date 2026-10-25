@@ -1,0 +1,38 @@
+name: hyphy_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _openmp_mutex=4.5
+  - c-ares=1.34.8
+  - ca-certificates=2026.10.18
+  - hyphy=2.5.103
+  - icu=78.3
+  - keyutils=1.6.3
+  - krb5=1.22.2
+  - libblas=3.11.0
+  - libcblas=3.11.0
+  - libcurl=8.23.0
+  - libedit=3.1.20260512
+  - libev=4.33
+  - libgcc=16.2.0
+  - libgcc-ng=16.2.0
+  - libgfortran=16.2.0
+  - libgfortran-ng=16.2.0
+  - libgfortran5=16.2.0
+  - libgomp=16.2.0
+  - libnghttp2=1.68.1
+  - libopenblas=0.3.34
+  - libpsl=0.23.1
+  - libssh2=1.11.1
+  - libstdcxx=16.2.0
+  - libstdcxx-ng=16.2.0
+  - libzlib=1.3.2
+  - mpi=1.0
+  - ncurses=6.6
+  - openmpi=4.1.6
+  - openssl=3.6.5
+  - zlib=1.3.2
+  - zstd=1.5.7
+prefix: /data/tfg_users/mollai/software/miniconda3/envs/hyphy_env

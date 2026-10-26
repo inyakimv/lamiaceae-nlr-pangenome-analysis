@@ -13,7 +13,7 @@ All analyses were run on a Linux server (Ubuntu 22.04, kernel 5.15) with conda e
 | Codon alignment | PAL2NAL | v14 | `base` | env |
 | CDS extraction | gffread | 0.12.7 | `base` | env |
 | Phylogenies (family tree, clade trees, HyPhy input trees) | FastTree | 2.1.11 (`base`; confirmed in `fasttree.log` and `nbarc_hmm.fasttree.log`: `FastTree -log … nbarc_hmmaligned_cov70.fasta`) | `base` | confirmed for the family tree; 2.2.0 exists only inside `busco_env`/`orthofinder_env` |
-| Phylogeny (ADR1 tree, Q.PLANT+G4, UFBoot) | IQ-TREE | 3.1.4 (`iqtree` env, built 29 Sep 2026): ADR1/Clade18 tree, `iq_c50`, `iq_c60`; 3.1.2 (built 17 May 2026, `orthofinder_env`): the other 42 logs under `project/` | per-tree | confirmed from log headers |
+| Phylogeny (ADR1 tree, Q.PLANT+R5, UFBoot) | IQ-TREE | 3.1.4 (`iqtree` env, built 29 Sep 2026): ADR1/Clade18 tree, `iq_c50`, `iq_c60`; 3.1.2 (built 17 May 2026, `orthofinder_env`): the other 42 logs under `project/` | per-tree | confirmed from log headers |
 | Selection (FEL, MEME, BUSTED) | HyPhy | **2.5.103** | `hyphy_env` | env (the 2.5.36 in `base` was not used) |
 | Orthogroups | OrthoFinder | 3.1.5 (DIAMOND 2.2.2, MCL 22.282) | `orthofinder_env` | env; confirm from `Log.txt` |
 | Genome completeness | BUSCO, lineage `eudicots_odb10` | 5.7.1 (`busco_env`, stated in `qc_seqkit_busco_flat.sh`); 6.1.0 also installed (`busco`) | `busco_env` | confirm from `short_summary*` |

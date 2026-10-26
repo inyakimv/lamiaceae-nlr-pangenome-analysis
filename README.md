@@ -33,3 +33,7 @@ Paths are given as command-line arguments or environment variables (see the head
 ## Not included
 
 Genome assemblies (public accessions listed in the manuscript), annotation outputs and large intermediates.
+
+## License
+
+The code in this repository is released under the MIT License (see `LICENSE`).

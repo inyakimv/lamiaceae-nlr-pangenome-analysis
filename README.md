@@ -37,3 +37,8 @@ Genome assemblies (public accessions listed in the manuscript), annotation outpu
 ## License
 
 The code in this repository is released under the MIT License (see `LICENSE`).
+
+## Supplementary data
+
+- `data/Table_S_threshold_sensitivity.tsv`: conserved-core clades under 12 combinations of species thresholds and mean-copy limits (Supplementary Methods S1).
+- `scripts/03_family_tree/eds1/refs_extra.fasta` and `tbn_queries.fasta`: reference and query sequences used to identify EDS1, PAD4 and SAG101 (Supplementary Methods S3).

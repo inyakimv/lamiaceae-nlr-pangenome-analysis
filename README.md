@@ -13,7 +13,7 @@ Software versions: see [`SOFTWARE_VERSIONS.md`](SOFTWARE_VERSIONS.md).
 | `scripts/01_annotation` | Genome QC (SeqKit, BUSCO), ANNEVO gene annotation, protein extraction, per-species proteome FASTAs (`make_proteomes_45.sh`, `clean_proteomes.sh`), check of official NCBI protein sets (`download_ncbi_proteomes.sh`, accessions in `data/accessions_45.tsv`), NLR-Annotator counts |
 | `scripts/02_orthology` | OrthoFinder orthogroups (used for the orthogroup-based core, a robustness check) |
 | `scripts/03_family_tree` | HMMER NB-ARC domain search, NB-ARC family tree (CD-HIT 85 %, FastTree), partition into clades with RefPlantNLR references; `01b_partition_refs_rerooted.py` repeats the partition after re-rooting on the stem of Clade 18 (re-rooting control) |
-| `scripts/04_core_robustness` | Conserved core: clade-size cap sensitivity, exclusion of one species, ADR1 checks, `compare_core.py` (core clades under midpoint vs. re-rooted tree: same 85 clades, same four core clades) |
+| `scripts/04_core_robustness` | Conserved core: clade-size cap sensitivity, exclusion of one species, ADR1 checks, `compare_core.py` (core clades under midpoint vs. re-rooted tree: same 85 clades, same four core clades; driver: `reroot_check.sh`) |
 | `scripts/05_selection` | CDS extraction, codon alignments, saturation check, HyPhy (FEL, MEME, BUSTED), rarefaction |
 | `scripts/06_structure` | Representative genes, AlphaFold 3 model handling, Foldseek/TM-score comparison, pLDDT |
 | `scripts/07_repertoire_tandem_ploidy` | Repertoire per species, tandem organisation and permutation test, ploidy, TNL/RNL census, filter robustness |
